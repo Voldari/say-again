@@ -20,11 +20,11 @@
 <style>
     .container {
         width: 100vw;
-        height: 50rem
+        height: 50rem;
     
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-row: auto auto auto auto auto;
+        grid-template-row: auto auto auto auto 1fr;
         
         background-color: var(--green)
     }
