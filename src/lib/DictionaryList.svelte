@@ -9,7 +9,7 @@
 
 <style> 
     .container {
-        grid-area: 4 / 1 / 5 / 3
+        grid-area: 4 / 1 / 5 / 3;
         margin: .25rem 0;
     }  
     
