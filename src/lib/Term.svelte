@@ -1,11 +1,19 @@
-<div class="container">  
+<div class="border search">
+
+</div>
+
+<div class="border container">  
 
 </div>  
 
 <style> 
     
-    .container {
+    .search {
+        margin: .25rem .5rem;
+    }
     
+    .container {
+        margin: .25rem .5rem;
     }  
     
  </style> 
