@@ -1,11 +1,38 @@
-<div class="container">  
+<script lang="ts">
 
-</div>  
+    let selected = false
+    
+    function toggle() {
+        selected = !selected
+    }
+</script>
+
+<div class="toggle" on:click={toggle}>
+    {#if selected}
+        Cancel
+    {:else}
+        New
+    {/if}
+</div>
+
+{#if selected}
+    <div class="border container">  
+
+    </div>  
+{/if}
 
 <style> 
 
+    .toggle {
+        grid-area: 2 / 1 / 3 / 2 ;
+    }
+    
     .container {
-
+        3 / 1 / 4 / 3
     }  
+    
+    .selected {
+        background-color: var(--red);
+    }
 
  </style> 
