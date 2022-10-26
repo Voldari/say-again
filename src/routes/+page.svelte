@@ -4,4 +4,4 @@
 </script>
 
 
-</App>
+<App/>
