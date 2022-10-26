@@ -6,7 +6,7 @@
     }
 </script>
 
-<div class="toggle" on:click={toggle}>
+<div class="toggle border" on:click={toggle}>
     {#if selected}
         Cancel
     {:else}
@@ -23,11 +23,11 @@
 <style> 
 
     .toggle {
-        grid-area: 1 / 2 / 2 / 3 ;
+        grid-area: 2 / 1 / 3 / 2 ;
     }
     
     .container {
-        grid-area: 1 / 3 / 3 / 4 ;
+        grid-area: 3 / 1 / 4 / 3 ;
     }  
     
     .selected {
