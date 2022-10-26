@@ -1,5 +1,20 @@
-<div class="container">
+<script lang="ts">
+    import User from "$lib/User.svelte"
+    import NewDictionary from "$lib/NewDictionary.svelte"
+    import JoinDictionary from "$lib/JoinDictionary.svelte"
+    import DictionaryList from "$lib/DictionaryList.svelte"
+    import TermSearch from "$lib/TermSearch.svelte"
+    import Term from "$lib/Term.svelte"
+</script>
 
+
+<div class="container">
+    <User/>
+    <NewDictionary/>
+    <JoinDictionary/>
+    <DictionaryList/>
+    <TermSearch/>
+    <Term/>
 </div>
 
 <style>
