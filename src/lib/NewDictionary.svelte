@@ -1,7 +1,5 @@
 <script lang="ts">
-
     let selected = false
-    
     function toggle() {
         selected = !selected
     }
