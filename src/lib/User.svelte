@@ -17,6 +17,7 @@
 
   .container {
     margin: 1rem;
+    grid-area: 1 / 1 / 3 / 2
   }  
   
   

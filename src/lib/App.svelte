@@ -19,9 +19,11 @@
 
 <style>
     .container {
-        height: 10rem;
-        width: 100%;
-        background-color: var(--red);
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-row: auto auto auto auto auto;
+    
     }
 </style>
 
