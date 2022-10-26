@@ -23,11 +23,11 @@
 <style> 
 
     .toggle {
-        grid-area: 2 / 1 / 3 / 2 ;
+        grid-area: 1 / 2 / 2 / 3 ;
     }
     
     .container {
-        grid-area: 3 / 1 / 4 / 3 ;
+        grid-area: 1 / 3 / 3 / 4 ;
     }  
     
     .selected {
