@@ -24,7 +24,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-row: auto auto auto auto auto;
-    
+        
+        background-color: var(--green)
     }
 </style>
 
