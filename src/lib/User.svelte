@@ -18,7 +18,7 @@
   .container {
     margin: 1rem;
     grid-area: 1 / 1 / 2 / 3;
-    width: 100%;
+  
   }  
   
   
