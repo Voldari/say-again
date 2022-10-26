@@ -17,8 +17,6 @@
   .horizontal_list {
       display: flex;
       overflow-x: scroll;
-
-      grid-area: 2 / 1 / 3 / 4; 
   }
 
   .horizontal_list_item {
