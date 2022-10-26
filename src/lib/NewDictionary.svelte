@@ -26,11 +26,10 @@
     }
     
     .container {
-        3 / 1 / 4 / 3
+        3 / 1 / 4 / 3 ;
     }  
     
     .selected {
         background-color: var(--red);
-    }
 
  </style> 
