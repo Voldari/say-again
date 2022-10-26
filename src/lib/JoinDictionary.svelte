@@ -23,7 +23,7 @@
 <style> 
 
     .toggle {
-        grid-area: 2 / 1 / 3 / 2 ;
+        grid-area: 2 / 2 / 3 / 3 ;
     }
     
     .container {
