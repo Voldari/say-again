@@ -1,5 +1,6 @@
 <script lang="ts">
     let selected = false
+    
     function toggle() {
         selected = !selected
     }
@@ -26,7 +27,7 @@
     }
     
     .container {
-        3 / 1 / 4 / 3 ;
+        grid-area: 3 / 1 / 4 / 3 ;
     }  
     
     .selected {
