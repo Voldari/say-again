@@ -20,6 +20,7 @@
 <style>
     .container {
         width: 100vw;
+        height: 50rem
     
         display: grid;
         grid-template-columns: 1fr 1fr;
